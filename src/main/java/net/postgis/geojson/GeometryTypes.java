@@ -1,4 +1,4 @@
-package org.postgis.geojson;
+package net.postgis.geojson;
 
 /**
  * GeoJSON supported types.

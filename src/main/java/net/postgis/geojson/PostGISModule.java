@@ -1,13 +1,14 @@
-package org.postgis.geojson;
+package net.postgis.geojson;
 
-import org.postgis.*;
 import com.fasterxml.jackson.databind.module.SimpleModule;
-import org.postgis.geojson.deserializers.GeometryDeserializer;
-import org.postgis.geojson.serializers.GeometrySerializer;
+
+import net.postgis.geojson.deserializers.GeometryDeserializer;
+import net.postgis.geojson.serializers.GeometrySerializer;
+import net.postgis.jdbc.geometry.Geometry;
 
 /**
  * Module for loading serializers/deserializers.
- * 
+ *
  * @author Maycon Viana Bordin <mayconbordin@gmail.com>
  */
 public class PostGISModule extends SimpleModule {
